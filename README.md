@@ -29,3 +29,13 @@ typedef struct {
     float usage;
     float totalBill;
 } Customer;
+```
+### 🔍 Core Functions
+
+| Function                  | Description                                                                  |
+|---------------------------|------------------------------------------------------------------------------|
+| `addCustomer()`           | Adds a new record to the list and calculates the total bill based on usage. |
+| `showAllCustomers()`      | Displays the list of customers along with their usage and bills.            |
+| `updateCustomer()`        | Finds a customer by phone number and updates their usage and bill.          |
+| `showCustomerPayment()`   | Views a customer’s usage and bill based on their phone number.              |
+| `deleteCustomer()`        | Deletes a customer record by shifting all subsequent records up to fill the gap. |
