@@ -2,7 +2,9 @@
 
 A simple C program to manage customer records. This application allows users to add, view, modify, delete, and calculate bills for customers based on their usage in minutes. It’s designed to handle up to 100 customer records, storing each customer's name, phone number, usage, and calculated bill.
 
+
 ---
+
 
 ## ✨ Features
 
@@ -12,11 +14,14 @@ A simple C program to manage customer records. This application allows users to 
 - **View Payment**: View a specific customer’s usage and total bill by searching with their phone number.
 - **Delete Customer**: Remove a customer’s record from the system using their phone number.
 
+
 ---
+
 
 ## 🛠️ How It Works
 
 Each customer's bill is calculated based on a usage rate of `$0.10` per minute. The program uses a `Customer` structure to store each customer's information, with a menu-driven interface allowing users to perform actions on these records.
+
 
 ### 📂 Data Structure
 
@@ -31,6 +36,7 @@ typedef struct {
 } Customer;
 ```
 
+
 ### 🔍 Core Functions
 
 | Function                  | Description                                                                  |
@@ -41,13 +47,17 @@ typedef struct {
 | `showCustomerPayment()`   | Views a customer’s usage and bill based on their phone number.              |
 | `deleteCustomer()`        | Deletes a customer record by shifting all subsequent records up to fill the gap. |
 
+
 ---
 
+
 ## 🚀 Getting Started
+
 
 ### 📋 Prerequisites
 
 You’ll need a C compiler, such as `gcc`, to compile and run the program.
+
 
 ### 📂 Compiling and Running
 
@@ -68,7 +78,6 @@ You’ll need a C compiler, such as `gcc`, to compile and run the program.
     5. Delete Customer
     6. Exit
 
----
 
 ### 💡 Example
 #### **Adding a Customer:**
