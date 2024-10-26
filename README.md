@@ -81,13 +81,13 @@ You’ll need a C compiler, such as `gcc`, to compile and run the program.
 
 ### 💡 Example
 - **Adding a Customer:**
-    -- ***Select 1***, then enter the customer's name, phone, and usage when prompted.
+    - ***Select 1***, then enter the customer's name, phone, and usage when prompted.
 - **Viewing All Customers:**
-    -- ***Select 2*** to see a list of all customer records.
+    - ***Select 2*** to see a list of all customer records.
 - **Modifying a Customer Record:**
-    -- ***Select 3***, enter the phone number of the customer, then provide the updated usage in minutes.
+    - ***Select 3***, enter the phone number of the customer, then provide the updated usage in minutes.
 - **Deleting a Customer:**
-    -- ***Select 5***, enter the customer’s phone number, and confirm deletion.
+    - ***Select 5***, enter the customer’s phone number, and confirm deletion.
 
 ---
 
