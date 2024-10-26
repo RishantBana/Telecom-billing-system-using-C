@@ -88,3 +88,8 @@ You’ll need a C compiler, such as `gcc`, to compile and run the program.
 ##### ***Select 3***, enter the phone number of the customer, then provide the updated usage in minutes.
 #### **Deleting a Customer:**
 ##### ***Select 5***, enter the customer’s phone number, and confirm deletion.
+
+---
+
+## 📜 License
+This project is open-source and available for any use.
