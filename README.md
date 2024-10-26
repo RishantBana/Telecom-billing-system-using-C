@@ -1,9 +1,10 @@
 # Telecom-billing-system-using-C
 A simple C program to manage customer records. This application allows users to add, view, modify, delete, and calculate bills for customers based on their usage in minutes. It’s designed to handle up to 100 customer records, storing each customer's name, phone number, usage in minutes, and calculated bill.
+
 Features
 Add Customer: Create a new customer record with their name, phone number, and usage in minutes.
 View All Customers: Display a list of all customers, including each customer’s name, phone number, usage, and total bill.
-Modify Customer: Update an existing customer's usage (in minutes) based on their phone number.
+Modify Customer: Update the usage (in minutes) for an existing customer based on their phone number.
 View Payment: View a specific customer’s usage and total bill by searching with their phone number.
 Delete Customer: Remove a customer’s record from the system using their phone number.
 How It Works
@@ -18,7 +19,7 @@ typedef struct {
     char name[50];
     char phone[15];
     float usage;
-    float total bill;
+    float totalBill;
 } Customer;
 The Customer structure holds data for each customer.
 
@@ -47,7 +48,7 @@ Copy code
 Usage
 Upon running the program, a menu will be displayed:
 
-markdown
+plaintext
 Copy code
 1. Add Customer
 2. Show All Customers
@@ -67,6 +68,6 @@ Enter 1 and follow the prompts to input the customer's details.
 Viewing All Customers:
 Enter 2 to see the list of all customer records.
 Modifying a Customer Record:
-Enter 3, input the customer's phone number you want to modify, and enter the updated usage in minutes.
+Enter 3, then input the phone number of the customer you want to modify, and enter the updated usage in minutes.
 Deleting a Customer:
 Enter 5, input the customer’s phone number, and confirm the deletion.
