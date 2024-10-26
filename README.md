@@ -31,7 +31,6 @@ typedef struct {
 } Customer;
 ```
 
----
 
 ### 🔍 Core Functions
 
