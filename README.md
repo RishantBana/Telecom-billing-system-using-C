@@ -30,6 +30,9 @@ typedef struct {
     float totalBill;
 } Customer;
 ```
+
+---
+
 ### 🔍 Core Functions
 
 | Function                  | Description                                                                  |
@@ -39,3 +42,42 @@ typedef struct {
 | `updateCustomer()`        | Finds a customer by phone number and updates their usage and bill.          |
 | `showCustomerPayment()`   | Views a customer’s usage and bill based on their phone number.              |
 | `deleteCustomer()`        | Deletes a customer record by shifting all subsequent records up to fill the gap. |
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+You’ll need a C compiler, such as `gcc`, to compile and run the program.
+
+### 📂 Compiling and Running
+
+1. **Compile the program:**
+   ```
+   gcc customer_management.c -o customer_management
+   
+2. **Run the program**
+   ```
+   ./customer_management
+   
+3. **After running the program, a menu is displayed:**
+   ```
+   1. Add Customer
+    2. Show All Customers
+    3. Update Customer Usage
+    4. Show Payment
+    5. Delete Customer
+    6. Exit
+
+---
+
+###💡 Example
+Adding a Customer:
+####Select 1, then enter the customer's name, phone, and usage when prompted.
+Viewing All Customers:
+####Select 2 to see a list of all customer records.
+Modifying a Customer Record:
+####Select 3, enter the phone number of the customer, then provide the updated usage in minutes.
+Deleting a Customer:
+####Select 5, enter the customer’s phone number, and confirm deletion.
