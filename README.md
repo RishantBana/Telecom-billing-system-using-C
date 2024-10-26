@@ -35,8 +35,6 @@ typedef struct {
     float totalBill;
 } Customer;
 ```
-
-
 ### 🔍 Core Functions
 
 | Function                  | Description                                                                  |
@@ -64,11 +62,9 @@ You’ll need a C compiler, such as `gcc`, to compile and run the program.
 1. **Compile the program:**
    ```
    gcc customer_management.c -o customer_management
-   
 2. **Run the program**
    ```
    ./customer_management
-   
 3. **After running the program, a menu is displayed:**
    ```
    1. Add Customer
@@ -77,8 +73,6 @@ You’ll need a C compiler, such as `gcc`, to compile and run the program.
     4. Show Payment
     5. Delete Customer
     6. Exit
-
-
 ### 💡 Example
 - **Adding a Customer:**
     - ***Select 1***, then enter the customer's name, phone, and usage when prompted.
